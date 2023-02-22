@@ -1,6 +1,3 @@
-
-
-
 console.log('hello orl');
 
 window.onload = pics();
