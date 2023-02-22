@@ -1,12 +1,5 @@
-console.log('hello orl');
-
 window.onload = pics();
-   
-
-
-
-
- async function pics() {
+async function pics() {
     const data = await fetch('/pics');
     const res = await data.json();
     console.log(res);
